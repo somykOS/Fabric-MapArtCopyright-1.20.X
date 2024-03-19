@@ -15,7 +15,7 @@ disableCopy: false
 # Works if 'copyright' is/was 'true'
 authorsCanCopy: true
 
-# Command /mapAuthor new <player> works if it's true, and you're one of the authors
+# Authors can use `/mapAuthor add <player>` command
 authorsCanAddAuthors: true
 
 # Allows to clean a map with a bucket of water in a cartography table
@@ -27,7 +27,7 @@ To use this command you need the permission `mapartcopyright.changeconfig`. <br>
 This mod uses [fabric-permission-api](https://github.com/lucko/fabric-permissions-api/). <br>
 (Alternatively, you can change it manually in `config/MapArtCopyright/config.yml`)
 
-To use `/mapAuthor new <player>` you should be one of the map authors or have `mapartcopyright.addauthor` permission. <br>
+To use `/mapAuthor add <player>` you should be one of the map authors or have `mapartcopyright.addauthor` permission. <br>
 To use `/mapAuthor remove <player>` you should have `mapartcopyright.removeauthor` permission.
 
 As you can see, you can also disable map copying so nobody can copy it (except authors if `authorsCanCopy` is `true`). <br>
